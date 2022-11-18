@@ -1,0 +1,102 @@
+[
+    {
+        "id": 9,
+        "btnSymbol": 9,
+        "handler": "numberInput",
+        "parameter": 9,
+        "classType":"",
+        "idType":""
+
+    },
+    {
+        "id": 8,
+        "btnSymbol": 8,
+        "handler": "numberInput",
+        "parameter": 8,
+        "classType":"",
+        "idType":""
+        
+    },
+    {
+        "id": 7,
+        "btnSymbol": 7,
+        "handler":"numberInput" ,
+        "parameter": 7,
+        "classType":"",
+        "idType":""
+        
+    },
+    {
+        "id": 6,
+        "btnSymbol": 6,
+        "handler":"numberInput" ,
+        "parameter": 6,
+        "classType":"",
+        "idType":""
+        
+    },
+    {
+        "id": 5,
+        "btnSymbol": 5,
+        "handler":"numberInput" ,
+        "parameter": 5,
+        "classType":"",
+        "idType":""
+        
+    },
+    {
+        "id": 4,
+        "btnSymbol": 4,
+        "handler":"numberInput" ,
+        "parameter": 4,
+        "classType":"",
+        "idType":""
+        
+    },
+    {
+        "id": 3,
+        "btnSymbol": 3,
+        "handler":"numberInput" ,
+        "parameter": 3,
+        "classType":"",
+        "idType":""
+        
+    },
+    {
+        "id": 2,
+        "btnSymbol": 2,
+        "handler":"numberInput" ,
+        "parameter": 2,
+        "classType":"",
+        "idType":""
+        
+    },
+    {
+        "id": 1,
+        "btnSymbol": 1,
+        "handler":"numberInput" ,
+        "parameter": 1,
+        "classType":"",
+        "idType":""
+        
+    },
+    {
+        "id": 0,
+        "btnSymbol": 0,
+        "handler":"numberInput" ,
+        "parameter": 0,
+        "classType":"",
+        "idType":"zeroButton"
+        
+    },
+    {
+        "id": ".",
+        "btnSymbol" : ".",
+        "handler":"numberInput" ,
+        "parameter": ".",
+        "classType":"",
+        "idType":""
+        
+    }
+
+]

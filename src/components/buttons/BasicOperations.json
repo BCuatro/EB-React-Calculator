@@ -1,0 +1,57 @@
+[
+    {
+        "id": "+/-",
+        "btnSymbol": "+/-",
+        "parameter": "",
+        "handler": "+/-",
+        "classType":"",
+        "idType":"operatinButton"
+
+    },
+    
+    {
+        "id": "/",
+        "btnSymbol": "/",
+        "handler": "operation",
+        "parameter": "/",
+        "classType":"",
+        "idType":"operationButton"
+
+    },
+    {
+        "id": "x",
+        "btnSymbol": "x",
+        "handler": "operation",
+        "parameter": "x",
+        "classType":"",
+        "idType":"operationButton"
+
+    },
+    {
+        "id": "-",
+        "btnSymbol": "-",
+        "handler": "operation",
+        "parameter": "-",
+        "classType":"",
+        "idType":"operationButton"
+
+    },
+    {
+        "id": "+",
+        "btnSymbol": "+",
+        "handler": "operation",
+        "parameter": "+",
+        "classType":"",
+        "idType":"operationButton"
+
+    },
+    {
+        "id": "=",
+        "btnSymbol": "=",
+        "handler": "calculation",
+        "parameter": "=",
+        "classType":"",
+        "idType":"equalButton"
+
+    }
+]
