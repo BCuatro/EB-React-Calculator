@@ -1,10 +1,10 @@
 import {useState} from 'react'
 import NumberButton from '../buttons/NumberButton';
 import "./Calculator.css"
-import NUMS from "../buttons/NumberData.json"
-import BASICOPERATORS from "../buttons/BasicOperations.json"
-import SPECIALOPERATORS from "../buttons/SpecialOperations.json"
-import ADDITIONALOPERATORS from "../buttons/AdditionalOperations.json"
+import NUMS from "../buttons/button-data/NumberData.json"
+import BASICOPERATORS from "../buttons/button-data/BasicOperations.json"
+import SPECIALOPERATORS from "../buttons/button-data/SpecialOperations.json"
+import ADDITIONALOPERATORS from "../buttons/button-data/AdditionalOperations.json"
 import Display from '../display/Display';
 
 const Calculator = () => {

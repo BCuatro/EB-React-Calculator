@@ -4,8 +4,8 @@
         "btnSymbol": "+/-",
         "parameter": "",
         "handler": "+/-",
-        "classType":"",
-        "idType":"operatinButton"
+        "idType":"operationButton",
+        "instruction": "Negative/Positive:  Convert displayed number to a negative or positive value."
 
     },
     
@@ -14,8 +14,8 @@
         "btnSymbol": "/",
         "handler": "operation",
         "parameter": "/",
-        "classType":"",
-        "idType":"operationButton"
+        "idType":"operationButton",
+        "instruction": "Divide:  Tells calculator to execute division"
 
     },
     {
@@ -23,8 +23,8 @@
         "btnSymbol": "x",
         "handler": "operation",
         "parameter": "x",
-        "classType":"",
-        "idType":"operationButton"
+        "idType":"operationButton",
+        "instruction": "Multiple:  Tells calculator to execute multiplication"
 
     },
     {
@@ -32,8 +32,8 @@
         "btnSymbol": "-",
         "handler": "operation",
         "parameter": "-",
-        "classType":"",
-        "idType":"operationButton"
+        "idType":"operationButton",
+        "instruction": "Minus:  Tells calculator to execute subtraction"
 
     },
     {
@@ -41,8 +41,8 @@
         "btnSymbol": "+",
         "handler": "operation",
         "parameter": "+",
-        "classType":"",
-        "idType":"operationButton"
+        "idType":"operationButton",
+        "instruction": "Add: Tells calculator to execute addition"
 
     },
     {
@@ -50,8 +50,8 @@
         "btnSymbol": "=",
         "handler": "calculation",
         "parameter": "=",
-        "classType":"",
-        "idType":"equalButton"
+        "idType":"equalButton",
+        "instruction": "Equal:  Executes calculation"
 
     }
 ]

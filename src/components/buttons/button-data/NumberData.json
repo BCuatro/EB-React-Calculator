@@ -4,8 +4,8 @@
         "btnSymbol": 9,
         "handler": "numberInput",
         "parameter": 9,
-        "classType":"",
-        "idType":""
+        "idType":"",
+        "instruction": ""
 
     },
     {
@@ -13,8 +13,8 @@
         "btnSymbol": 8,
         "handler": "numberInput",
         "parameter": 8,
-        "classType":"",
-        "idType":""
+        "idType":"",
+        "instruction": ""
         
     },
     {
@@ -22,8 +22,8 @@
         "btnSymbol": 7,
         "handler":"numberInput" ,
         "parameter": 7,
-        "classType":"",
-        "idType":""
+        "idType":"",
+        "instruction": ""
         
     },
     {
@@ -31,8 +31,8 @@
         "btnSymbol": 6,
         "handler":"numberInput" ,
         "parameter": 6,
-        "classType":"",
-        "idType":""
+        "idType":"",
+        "instruction": ""
         
     },
     {
@@ -40,8 +40,8 @@
         "btnSymbol": 5,
         "handler":"numberInput" ,
         "parameter": 5,
-        "classType":"",
-        "idType":""
+        "idType":"",
+        "instruction": ""
         
     },
     {
@@ -49,8 +49,8 @@
         "btnSymbol": 4,
         "handler":"numberInput" ,
         "parameter": 4,
-        "classType":"",
-        "idType":""
+        "idType":"",
+        "instruction": ""
         
     },
     {
@@ -58,8 +58,8 @@
         "btnSymbol": 3,
         "handler":"numberInput" ,
         "parameter": 3,
-        "classType":"",
-        "idType":""
+        "idType":"",
+        "instruction": ""
         
     },
     {
@@ -67,8 +67,8 @@
         "btnSymbol": 2,
         "handler":"numberInput" ,
         "parameter": 2,
-        "classType":"",
-        "idType":""
+        "idType":"",
+        "instruction": ""
         
     },
     {
@@ -76,8 +76,8 @@
         "btnSymbol": 1,
         "handler":"numberInput" ,
         "parameter": 1,
-        "classType":"",
-        "idType":""
+        "idType":"",
+        "instruction": ""
         
     },
     {
@@ -85,8 +85,8 @@
         "btnSymbol": 0,
         "handler":"numberInput" ,
         "parameter": 0,
-        "classType":"",
-        "idType":"zeroButton"
+        "idType":"zeroButton",
+        "instruction": ""
         
     },
     {
@@ -94,8 +94,8 @@
         "btnSymbol" : ".",
         "handler":"numberInput" ,
         "parameter": ".",
-        "classType":"",
-        "idType":""
+        "idType":"",
+        "instruction": ""
         
     }
 

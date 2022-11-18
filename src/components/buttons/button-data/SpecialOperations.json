@@ -1,0 +1,30 @@
+[
+    {
+        "id": "SQRT",
+        "btnSymbol": "SQRT",
+        "parameter": "",
+        "handler": "squareRoot",
+        "idType":"operationButton",
+        "instruction": "Square Root:  Executes square root of the displayed number"
+
+    },
+    {
+        "id": "EXP",
+        "btnSymbol": "EXP",
+        "parameter": "EXP",
+        "handler": "operation",
+        "idType":"operationButton",
+        "instruction": "Exponent :  Tells the calculator the next number will be an exponent"
+
+    },
+    {
+        "id": "%",
+        "btnSymbol": "%",
+        "parameter": "",
+        "handler": "percent",
+        "idType":"operationButton",
+        "instruction": "Percent: Coverts displayed percentage to it's numerical value (displayed number / 100) "
+
+    }
+   
+]

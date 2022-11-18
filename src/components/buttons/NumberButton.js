@@ -1,7 +1,7 @@
 import React from 'react'
 import "./buttons.css"
 
-const NumberButton = ({symbol, handler, parameter, classType, idType }) => {
+const NumberButton = ({symbol, handler, parameter, idType }) => {
   return (
    <button 
       className = "button"

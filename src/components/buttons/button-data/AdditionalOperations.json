@@ -1,0 +1,30 @@
+[
+    {
+        "id": "A/C",
+        "btnSymbol": "A/C",
+        "parameter": "A/C",
+        "handler": "clear",
+        "idType":"operationButton",
+        "instruction": "All Clear: Clears all data and resets the calculator."
+
+    },
+    {
+        "id": "DEL",
+        "btnSymbol": "DEL",
+        "parameter": "DEL",
+        "handler": "clear",
+        "idType":"operationButton",
+        "instruction": "Delete: Deletes displayed number."
+
+    },
+    {
+        "id": "()",
+        "btnSymbol": "()",
+        "parameter": "",
+        "handler": "parentheses",
+        "idType":"operationButton",
+        "instruction": "Parentheses: First click opens the parentheses. Second click closes the parentheses.  All calculation will be computed inside the parentheses when opened."
+
+    }
+   
+]

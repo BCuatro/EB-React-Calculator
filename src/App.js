@@ -1,13 +1,17 @@
 // import Calculator from './Calculator-2';
 import Calculator from './components/calculator/Calculator';
+import './App.css'
+import Instruction from './components/instructions/Instruction';
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
-      <Calculator />
+      <h1> My React Calculator</h1>
+      <main>
+        <Calculator />
+        <Instruction />
+      </main>
     </div>
   );
 }

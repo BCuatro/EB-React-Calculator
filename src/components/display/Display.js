@@ -1,5 +1,6 @@
 import React from 'react'
-import "./Calculator.css"
+import "../calculator/Calculator.css"
+import "./Display.css"
 const Display = ({number}) => {
 
     const errorHandling = (number) =>{
@@ -8,7 +9,7 @@ const Display = ({number}) => {
         }
 
          if(number.toString().length > 15){
-            return Number(number).toExponential(10).toString()
+            return Number(number).toExponential(11).toString()
          }
 
         return number 
@@ -17,7 +18,7 @@ const Display = ({number}) => {
     number = errorHandling(number)
 
     return (
-        <div className= "display" id ={(number.length > 10 || number.length === undefined) ? "textId" : ""}> {number}</div>
+        <div className= "display" id ={(number.length > 10 ) ? "textId" : ""}> {number}</div>
     )
 }
 
