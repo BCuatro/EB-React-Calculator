@@ -106,7 +106,7 @@ const Calculator = () => {
           setOperator("");
           setStoredNumber("0");
           setBeforeValues({"storedVal":"", "storedOp": ""});
-          setPressedParentheses("false");
+          setPressedParentheses(false);
         }
         setInput("0");
     };
@@ -152,7 +152,6 @@ const Calculator = () => {
             setBeforeValues({"storedVal":storedNumber, "storedOp": operator});
             setStoredNumber("");
             setInput("0");
-    
         } else { 
             setPressedParentheses(false);
             let parResults = calculationHandler();
@@ -177,14 +176,17 @@ const Calculator = () => {
         
     }
     
-    
   return (
     <div className = "calcContainer">
 
-        <div className = "displayContainer"> 
-            <div className = "parenthesesPrompt" id = {!pressedParentheses ? "non-visible" : ""} >( Calculating Value )</div>
-            <Display number = {numberInput ? numberInput : storedNumber} />
-        </div>
+         
+            {/* <div className = "parenthesesPrompt" id = {pressedParentheses ? "" : "non-visible"} >( Calculating Value )</div> */}
+            <Display 
+            numberInput = {numberInput} 
+            storedNumber= {storedNumber}
+            parenthesesOn = {pressedParentheses}
+            />
+        
         
         <div className= "buttonContainer">
             <div className = "numberContainer"> 

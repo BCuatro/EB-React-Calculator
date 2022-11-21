@@ -1,24 +1,36 @@
 import React from 'react'
 import "../calculator/Calculator.css"
 import "./Display.css"
-const Display = ({number}) => {
+const Display = ({numberInput, storedNumber, parenthesesOn}) => {
 
-    const errorHandling = (number) =>{
-        if(isNaN(number) && number !== "."){
+    let number = numberInput ? numberInput: storedNumber
+
+    const errorHandling = (num) =>{
+        if(isNaN(num) && num !== "."){
             return "Error" 
         }
 
-         if(number.toString().length > 15){
-            return Number(number).toExponential(11).toString()
+         if(num.toString().length > 12){
+            // if(Number(num).toExponential(10).toString().slice(Number(num).toExponential(10).toString().length-3)=== "e+0"){
+            //    num = Number(num).toExponential(10).toString().slice(0,Number(num).toExponential(10).toString().length-3)
+            //    return (Number(num) *1).toString()
+            // }
+            
+            return Number(num).toExponential(12).toString()
          }
 
-        return number 
+        return num
     }
 
     number = errorHandling(number)
 
     return (
-        <div className= "display" id ={(number.length > 10 ) ? "textId" : ""}> {number}</div>
+        // <div className= "display" id ={(number.length > 10 ) ? "textId" : ""}> {number}</div>
+        <div className = "displayContainer"> 
+            <div className = "parenthesesPrompt" id = {parenthesesOn ? "" : "non-visible"} >( Calculating Value )</div>
+            <div className= "display"> {number}</div>
+            {/* <div className= "display" id ={(number.length < 15 ) ? "" : "textId"}> {number}</div> */}
+        </div>
     )
 }
 

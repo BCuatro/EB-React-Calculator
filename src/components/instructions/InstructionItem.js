@@ -6,7 +6,7 @@ const InstructionItem = ({symbol, instruction}) => {
         <div className = "symbolContainer" >
             <div className = "instructionSymbols"> {symbol} </div>
         </div>
-        <div classNaem = "definitionContainer">
+        <div className = "definitionContainer">
             <div className = "definition"> {instruction} </div>
         </div>
         
