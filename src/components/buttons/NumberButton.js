@@ -1,6 +1,7 @@
 import React from 'react'
 import "./buttons.css"
 
+//Function to create the calculator buttons.
 const NumberButton = ({symbol, handler, parameter, idType }) => {
   return (
    <button 

@@ -1,5 +1,7 @@
+import React from 'react'
 import "./Instructions.css"
 
+//Component that formats each instruction line item
 const InstructionItem = ({symbol, instruction}) => {
   return (
     <div className= "instructionContext">

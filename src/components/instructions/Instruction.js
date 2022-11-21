@@ -5,7 +5,7 @@ import ADDITIONALOPERATORS from "../buttons/button-data/AdditionalOperations.jso
 import "./Instructions.css"
 import InstructionItem from './InstructionItem';
 
-
+//Component for the buttons information.
 const Instruction = () => {
   return (
     <div className = "instructionContainer">

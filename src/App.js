@@ -1,4 +1,4 @@
-// import Calculator from './Calculator-2';
+import React from 'react'
 import Calculator from './components/calculator/Calculator';
 import './App.css'
 import Instruction from './components/instructions/Instruction';
